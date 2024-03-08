@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 20% 20% 40% 20%;
+  grid-template-rows: 18% 75% 7%;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+.sunset {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  width: 100%;
+  height: 100%;
+}
+.grid-item-1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  font-size: 2.4vw;
+  font-style: oblique;
+}
+.grid-item-2 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-color: white;
+  text-align: justify;
+  padding: 25px;
+  font-size: 1.2vw;
+}
+
+.grid-item-3 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-color: white;
+  text-align: justify;
+  padding: 25px;
+  font-size: 1vw;
+}
+.grid-item-4 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  column-count: 2;
+  font-size: 1.5vw;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2.5vw;
+}
+.footer-1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+padding: 20px;
+}
+.footer-2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  text-align: right;
+  padding: 20px;
+}
+.sidebar-grid{
+    display: grid;
+}
+.sidebar-grid-item-1 {
+  color: tomato;
+  font-size: 1.8vw;
+  border-bottom-style: double;
+}
+.main-text-grid{
+    display: grid;
+grid-template-rows: 15% auto;
+} 
+.main-text-grid-1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.main-text-grid-2{
+    column-count: 2;
+}
